@@ -11,6 +11,8 @@ class MymodComments extends Module {
         $this->author = 'Lindsay Chognon';
         $this->description = 'Boostez vos ventes grâce à vos avis clients.';
 
+        $this->ps_versions_compliancy = ['min' => '1.7.1.0', 'max' => _PS_VERSION_];
+
         parent::__construct();
 
     }
