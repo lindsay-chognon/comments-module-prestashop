@@ -25,4 +25,10 @@ class Mymodule extends Module
 
     }
 
+    public function getContent() {
+
+        return 'Hello !';
+
+    }
+
 }
